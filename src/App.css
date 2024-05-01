@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.link{
+  color: grey;
+  padding-bottom:3px;
+  margin: 5px;
+}
+
+.link .active{
+  color: #fff;
+  border-bottom-color: #fff;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+.link:hover{
+  color:grey;
+  border-bottom-color: grey;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
