@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
+      <Header></Header>
       <Content />
       <Footer />
-      <Header></Header>
     </>
   )
 }
