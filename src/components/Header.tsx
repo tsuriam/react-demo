@@ -1,11 +1,11 @@
 import Menu from "./Menu";
-// import Logo from "./Logo";
+import Logo from "./Logo";
 
 export default function Header()
 {
     return (
         <>
-            {/* <Logo></Logo> */}
+            <Logo></Logo>
             <Menu></Menu>
         </>
     )

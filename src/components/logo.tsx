@@ -1,4 +1,4 @@
 export default function Logo()
 {
-    return <div>Cover</div>
+    return <h3 style={{fontSize:28}}>Cover</h3>
 }
