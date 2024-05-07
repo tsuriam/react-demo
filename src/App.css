@@ -45,6 +45,7 @@
   color: grey;
   padding-bottom:3px;
   margin: 5px;
+  text-decoration: none;
 }
 
 .link .active{
@@ -59,4 +60,19 @@
   border-bottom-color: grey;
   border-bottom-width: 3px;
   border-bottom-style: solid;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainContent{
+  text-align: center;
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(80vh);
 }

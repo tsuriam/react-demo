@@ -5,8 +5,10 @@ export default function Header()
 {
     return (
         <>
-            <Logo></Logo>
-            <Menu></Menu>
+           <nav >
+                <Logo></Logo>
+                <Menu></Menu>
+            </nav>
         </>
     )
 }
